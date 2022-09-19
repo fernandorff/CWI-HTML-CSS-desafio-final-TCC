@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+body {
+  background-color: #f6f6f6;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --- CORES --- */
+
+.cor-bg-laranja {
+  background-color: #ff8e6e;
+}
+
+.cor-bg-branca {
+  background-color: #ffffff;
+}
+
+.cor-bg-cinza-escuro {
+  background-color: #515070;
+}
+
+.cor-bg-cinza-claro {
+  background-color: #f6f6f6;
+}
+
+.cor-bg-preto {
+  background-color: #000000;
+}
+
+.cor-branca {
+  color: #ffffff;
+}
+
+.cor-laranja {
+  color: #ff8e6e;
+}
+
+.cor-cinza-escuro {
+  color: #515070;
+}
+
+.cor-cinza {
+  color: #898989;
+}
+
+/* --- AJUSTE E TAMANHO --- */
+
+.altura-630 {
+  height: 630px;
+}
+
+.altura-690 {
+  height: 690px;
+}
+
+.largura-500 {
+  max-width: 500px;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.block-container {
+  display: block;
+}
+
+.align-right {
+  margin-left: auto;
+}
+
+.align-left {
+  margin-right: auto;
+}
+
+.unwrap {
+  flex-wrap: nowrap;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+/* --- IMAGENS DE FUNDO --- */
+
+.bg-image {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-somos {
+  background-image: url("/assets/img/bg-somos.png");
+}
+
+.bg-servicos {
+  background-image: url("/assets/img/bg-servicos.png");
+}
+
+/* --- TEXTO --- */
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  display: block;
+  margin: 20px 0px;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  display: block;
+  margin: 10px 0px;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  display: block;
+  margin: 20px 0px;
+}
+
+.fonte-a {
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+/* --- BLOCOS PRINCIPAIS --- */
+
+.bloco {
+  width: 100%;
+  padding: 59px 73px;
+  align-items: center;
+  display: flex;
+  max-width: 1346px;
+  box-shadow: 0px 4px 4px #00000050;
+  flex-wrap: wrap;
+  position: relative;
+
+  justify-content: space-between;
+}
+
+.botao {
+  width: 165px;
+  height: 60px;
+  display: flex;
+  box-shadow: 0px 4px 4px #00000025;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.texto-botao {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.conteudo-bloco {
+  justify-content: center;
+  align-items: center;
+}
+
+.icone-botao {
+  display: inline-block;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-left: 10px;
+}
+
+/* --- CARD --- */
+
+.cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card-depoimento {
+  padding: 20px;
+  display: flex;
+  width: 580px;
+  height: 220px;
+  flex-wrap: wrap;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.card-foto {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.card-titulo-subtitulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+}
+
+.card-titulo {
+  font-weight: 700;
+  display: block;
+  font-size: 18px;
+}
+
+.card-subtitulo {
+  font-size: 12px;
+  font-weight: 400;
+  display: block;
+}
+
+.card-texto {
+  display: block;
+  height: 88px;
+}
+
+/* BLOCO 5 */
+
+.titulo-bloco-container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-self: flex-start;
+}
+
+.titulo-bloco {
+  margin: 0;
+}
+
+.card-item {
+  justify-content: space-between;
+  width: 337px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.card-item-icone {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.card-item-texto {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.phone {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  border: solid px red;
+}

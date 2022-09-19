@@ -1,0 +1,169 @@
+.bg-contato {
+  background-image: url("/assets/img/contato/bg-contato.png");
+}
+
+/* CONTAINER FORMULARIOS */
+
+.container-bloco-form {
+  max-width: 1346px;
+  width: 100%;
+  padding: 59px 73px;
+  display: flex;
+  box-shadow: 0px 4px 4px #00000050;
+  background-color: #ffffff;
+}
+
+.container-contato-form {
+  width: 63.31114%;
+  background-color: #ffffff;
+  padding-right: 39px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-contato-form-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  width: ;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container-contato-form-titulo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.container-bloco-form > h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ff8e6e;
+}
+
+.contato-form-icone-mail {
+  width: 48px;
+  height: 22px;
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-contato-form-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0px;
+  align-items: center;
+}
+
+.card-form {
+  display: flex;
+  flex-direction: column;
+  width: 47.5%;
+}
+
+.card-form-msg {
+  display: flex;
+  flex-direction: column;
+  width: 3100%;
+}
+
+.container-agree {
+  width: 100%;
+  height: 50px;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.label-v1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #898989;
+  margin: 0;
+}
+
+.label-opcao {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #a9a9a9;
+  margin: 0;
+}
+
+.radio-box {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* CONTAINER INFO DE CONTATO */
+
+.container-contato-info {
+  width: 36.68886%;
+  background: rgb(81, 80, 112);
+  background: linear-gradient(
+    90deg,
+    rgba(81, 80, 112, 1) 0%,
+    rgba(107, 105, 176, 1) 100%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  padding: 39px 49px;
+}
+
+.container-contato-info > h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 120px;
+}
+
+.card-info-container {
+  display: flex;
+  margin-bottom: 66px;
+}
+
+.card-info-icon-box {
+  width: 34px;
+  margin-right: 21px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.card-info-text {
+  width: 211px;
+  display: flex;
+  align-items: center;
+}
+
+.card-info-icon {
+  max-width: 34px;
+  max-height: 29px;
+}

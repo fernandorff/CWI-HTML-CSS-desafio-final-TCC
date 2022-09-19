@@ -1,0 +1,43 @@
+.altura-450 {
+  height: 450px;
+}
+
+.altura-490 {
+  height: 490px;
+}
+
+.bg-sobre {
+  background-image: url("/assets/img/sobre/bg-sobre.png");
+}
+
+.container-card-time {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.card-time {
+  width: 257px;
+  height: 257px;
+}
+
+.container-card-mvv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+
+.card-mvv {
+  width: 336px;
+}
+
+.card-mvv-top {
+  display: flex;
+  align-items: center;
+}
+
+* {
+  border: solid px red;
+}
